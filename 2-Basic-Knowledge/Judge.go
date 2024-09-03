@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// Judge is a function to check if a number is positive, negative or zero.
 func judge(num int) bool {
 
 	if num < 0 {
@@ -21,6 +22,7 @@ func judge(num int) bool {
 	}
 }
 
+// Decide is a function to check the type of a variable.
 func decide(num interface{}) {
 	switch num.(type) {
 	case int:
