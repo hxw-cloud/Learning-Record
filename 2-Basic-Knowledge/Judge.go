@@ -5,7 +5,7 @@ import (
 )
 
 // Judge is a function to check if a number is positive, negative or zero.
-func judge(num int) bool {
+func Judge(num int) bool {
 
 	if num < 0 {
 		// 数字小于0
